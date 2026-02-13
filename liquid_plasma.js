@@ -1,3 +1,5 @@
+runAfterLoad(function() {
+
 elements.liquid_plasma = {
     color: ["#ff4d00","#ff9900","#ffd500"],
     behavior: behaviors.LIQUID,
@@ -31,3 +33,5 @@ elements.slag = {
     state: "solid",
     description: "Hardened residue formed when plasma cools."
 };
+
+});
