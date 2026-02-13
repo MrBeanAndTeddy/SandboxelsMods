@@ -1,5 +1,6 @@
 // 1. Definition av den levande varelsen (Microbe)
 elements.microbe = {
+    name: "Test!",
     color: "#d1ffeb",
     behavior: behaviors.LIQUID, // De rör sig lite slumpmässigt i vätska
     category: "life",
